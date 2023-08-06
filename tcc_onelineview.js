@@ -8,8 +8,6 @@
 const css = document.createTextNode(`
 
 
-
-
 /* 3 Dot Menu */
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro {
@@ -169,15 +167,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-
-.taskList__taskRow .taskList__taskRow--active .taskList__taskRow--showComment > .taskList__estimated_timeVal {
-    display: none;
-}
-
-div#taskList__sectionBar118894 {
-    position: relative;
-    bottom: -422px;
-    z-index: 2;
+.taskList__taskAdd {
+    position: fixed !important;
+    bottom: 44px;
+    z-index: 3;
 }
 `);
 
