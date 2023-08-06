@@ -179,21 +179,83 @@ input::-webkit-inner-spin-button {
     z-index: 5;
 }
 
+/* G Section */
+div#taskList__sectionBar119524 {
+    position: fixed;
+    bottom: 58px;
+    left: 50px;
+    width: 50px;
+    z-index: 5;
+}
+
+/* W Section */
+div#taskList__sectionBar118889 {
+    position: fixed;
+    bottom: 59px;
+    left: 100px;
+    width: 50px;
+    z-index: 5;
+}
+
+/* M Section */
+div#taskList__sectionBar118890 {
+    position: fixed;
+    bottom: 59px;
+    left: 150px;
+    width: 50px;
+    z-index: 5;
+}
+
+/* N Section */
+div#taskList__sectionBar118891 {
+    position: fixed;
+    bottom: 59px;
+    left: 200px;
+    width: 50px;
+    z-index: 5;
+
+}
+
+/* A Section */
+div#taskList__sectionBar118892 {
+    position: fixed;
+    bottom: 59px;
+    left: 250px;
+    width: 70px;
+    z-index: 5;
+}
+
+/* E Section */
+div#taskList__sectionBar118893 {
+    position: fixed;
+    bottom: 59px;
+    left: 280px;
+    width: 70px;
+    z-index: 5;
+}
+
 /* F Section */
 div#taskList__sectionBar118894 {
     position: fixed;
     bottom: 59px;
+    left: 320px;
     width: 50px;
-    z-index: 4;
+    z-index: 5;
 }
 
 /* Z Section */
 div#taskList__sectionBar118888 {
     position: fixed;
     bottom: 58px;
-    left: 100px;
+    left: 350px;
     width: 50px;
-    z-index: 7;
+    z-index: 5;
+}
+
+/* Task list at bottom */
+section.taskList.mainSection {
+    position: relative;
+    top: 300px;
 }
 `);
 
