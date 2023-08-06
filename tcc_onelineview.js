@@ -172,6 +172,29 @@ input::-webkit-inner-spin-button {
     bottom: 44px;
     z-index: 3;
 }
+
+.taskList__breadcrumb {
+    position: fixed;
+    bottom: 17px;
+    z-index: 5;
+}
+
+/* F Section */
+div#taskList__sectionBar118894 {
+    position: fixed;
+    bottom: 59px;
+    width: 50px;
+    z-index: 4;
+}
+
+/* Z Section */
+div#taskList__sectionBar118888 {
+    position: fixed;
+    bottom: 58px;
+    left: 100px;
+    width: 50px;
+    z-index: 7;
+}
 `);
 
 const addCss = document.createElement('style');
