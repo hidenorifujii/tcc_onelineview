@@ -7,7 +7,8 @@
 
 const css = document.createTextNode(`
 
-/* test added */
+
+
 
 /* 3 Dot Menu */
 
@@ -169,6 +170,15 @@ input::-webkit-inner-spin-button {
 }
 
 
+.taskList__taskRow .taskList__taskRow--active .taskList__taskRow--showComment > .taskList__estimated_timeVal {
+    display: none;
+}
+
+div#taskList__sectionBar118894 {
+    position: relative;
+    bottom: -422px;
+    z-index: 2;
+}
 `);
 
 const addCss = document.createElement('style');
