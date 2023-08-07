@@ -166,11 +166,17 @@ section.taskList.mainSection {
     width: 83%;
 }
 
+:root {
+    --section-one-position: 110px;
+    --section-two-position: 75px;
+    --section-left-base: 130px;
+}
+
 /* G Section */
 div#taskList__sectionBar119524 {
     position: fixed;
-    bottom: 110px;
-    left: 50px;
+    bottom: var(--section-one-position);
+    left: var(--section-left-base);
     width: 50px;
     z-index: 5;
 }
@@ -178,8 +184,8 @@ div#taskList__sectionBar119524 {
 /* W Section */
 div#taskList__sectionBar118889 {
     position: fixed;
-    bottom: 110px;
-    left: 100px;
+    bottom: var(--section-one-position);
+    left: calc(var(--section-left-base) + 50px);
     width: 50px;
     z-index: 5;
 }
@@ -187,8 +193,8 @@ div#taskList__sectionBar118889 {
 /* M Section */
 div#taskList__sectionBar118890 {
     position: fixed;
-    bottom: 110px;
-    left: 150px;
+    bottom: var(--section-one-position);
+    left: calc(var(--section-left-base) + 100px);
     width: 50px;
     z-index: 5;
 }
@@ -196,8 +202,8 @@ div#taskList__sectionBar118890 {
 /* N Section */
 div#taskList__sectionBar118891 {
     position: fixed;
-    bottom: 110px;
-    left: 200px;
+    bottom: var(--section-one-position);
+    left: calc(var(--section-left-base) + 150px);
     width: 50px;
     z-index: 5;
 
@@ -206,8 +212,8 @@ div#taskList__sectionBar118891 {
 /* A Section */
 div#taskList__sectionBar118892 {
     position: fixed;
-    bottom: 75px;
-    left: 50px;
+    bottom: var(--section-two-position);
+    left: var(--section-left-base);
     width: 50px;
     z-index: 5;
 }
@@ -215,8 +221,8 @@ div#taskList__sectionBar118892 {
 /* E Section */
 div#taskList__sectionBar118893 {
     position: fixed;
-    bottom: 75px;
-    left: 100px;
+    bottom: var(--section-two-position);
+    left: calc(var(--section-left-base) + 50px);
     width: 50px;
     z-index: 5;
 }
@@ -224,8 +230,8 @@ div#taskList__sectionBar118893 {
 /* F Section */
 div#taskList__sectionBar118894 {
     position: fixed;
-    bottom: 75px;
-    left: 150px;
+    bottom: var(--section-two-position);
+    left: calc(var(--section-left-base) + 100px);
     width: 50px;
     z-index: 5;
 }
@@ -233,8 +239,8 @@ div#taskList__sectionBar118894 {
 /* Z Section */
 div#taskList__sectionBar118888 {
     position: fixed;
-    bottom: 75px;
-    left: 200px;
+    bottom: var(--section-two-position);
+    left: calc(var(--section-left-base) + 150px);
     width: 50px;
     z-index: 5;
 }
