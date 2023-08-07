@@ -154,7 +154,7 @@ input::-webkit-inner-spin-button {
 
 section.taskList.mainSection {
     position: relative;
-    top: 128px;
+    top: 220px;
 }
 
 
@@ -276,7 +276,7 @@ body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__su
 
 .taskList__breadcrumb {
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     z-index: 5;
 }
 
