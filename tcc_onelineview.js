@@ -242,7 +242,7 @@ div#taskList__sectionBar118888 {
 
 button.shortcutNav__hideCompleteTasks {
     position: fixed;
-    left: 16px;
+    left: 56px;
     bottom: 31px;
     z-index: 10;
 }
@@ -250,6 +250,7 @@ button.shortcutNav__hideCompleteTasks {
 .taskList__taskAdd {
     position: fixed !important;
     bottom: 10px;
+    left: 60px;
     z-index: 3;
 }
 
@@ -264,7 +265,7 @@ textarea.taskList__taskAddInput {
 
 body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__suggestTaskList {
     position: fixed;
-    top: 431px;
+    top: 231px;
     z-index: 120;
 }
 
