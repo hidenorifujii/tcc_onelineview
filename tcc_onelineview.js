@@ -7,7 +7,6 @@
 
 const css = document.createTextNode(`
 
-
 /* 3 Dot Menu */
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro {
@@ -275,19 +274,18 @@ body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__su
     z-index: 120;
 }
 
-/* .ReactModal__Overlay--after-open .ReactModal__Content .appModal button {
-    position: relative;
-    left: -100px;
-    bottom: -250px;
-} */
-
 .taskList__breadcrumb {
     position: fixed;
     bottom: 10px;
     z-index: 5;
 }
 
-
+/* Confirm Button */
+.ReactModal__Overlay--after-open .ReactModal__Content .appModal button {
+    position: relative;
+    left: -100px;
+    bottom: -200px;
+}
 `);
 
 const addCss = document.createElement('style');
