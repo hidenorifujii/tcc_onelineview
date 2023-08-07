@@ -29,13 +29,6 @@ button.taskList__popupBt.taskList__popupDeleteBt {top: -278px;}
 
 /* Start or Active */
 
-.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
-    position: fixed;
-    bottom: 80px;
-    z-index: 1;
-    width: 83%;
-}
-
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
     visibility: hidden;
 }
@@ -59,21 +52,12 @@ footer.topFooter,
     display: none;
 }
 
-
 /* Buttons */
 
-button.shortcutNav__hideCompleteTasks {
+body.task .wrapper .container .content .TaskApp .taskList__titleRow .taskList__detailCol {
     position: relative;
-    left: 60px;
-    bottom: 280px;
-    position: fixed;
-    z-index: 1;
-}
-
-.ReactModal__Overlay--after-open .ReactModal__Content .appModal button {
-    position: relative;
-    left: -100px;
-    bottom: -250px;
+    top: -280px;
+    left: -12px;
 }
 
 /* Main line */
@@ -150,6 +134,7 @@ body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__t
 }
 
 /* Disable Animations */
+
 *, ::before, ::after {
     animation-delay: -1ms !important;
     animation-duration: 1ms !important;
@@ -160,29 +145,31 @@ body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__t
     transition-duration: 0s !important;
 }
 
-/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.taskList__taskAdd {
-    position: fixed !important;
-    bottom: 44px;
-    z-index: 3;
+/* All on bottom */
+
+section.taskList.mainSection {
+    position: relative;
+    top: 128px;
 }
 
-.taskList__breadcrumb {
+
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
     position: fixed;
-    bottom: 17px;
-    z-index: 5;
+    bottom: 150px;
+    z-index: 1;
+    width: 83%;
 }
 
 /* G Section */
 div#taskList__sectionBar119524 {
     position: fixed;
-    bottom: 58px;
+    bottom: 110px;
     left: 50px;
     width: 50px;
     z-index: 5;
@@ -191,7 +178,7 @@ div#taskList__sectionBar119524 {
 /* W Section */
 div#taskList__sectionBar118889 {
     position: fixed;
-    bottom: 59px;
+    bottom: 110px;
     left: 100px;
     width: 50px;
     z-index: 5;
@@ -200,7 +187,7 @@ div#taskList__sectionBar118889 {
 /* M Section */
 div#taskList__sectionBar118890 {
     position: fixed;
-    bottom: 59px;
+    bottom: 110px;
     left: 150px;
     width: 50px;
     z-index: 5;
@@ -209,7 +196,7 @@ div#taskList__sectionBar118890 {
 /* N Section */
 div#taskList__sectionBar118891 {
     position: fixed;
-    bottom: 59px;
+    bottom: 110px;
     left: 200px;
     width: 50px;
     z-index: 5;
@@ -219,26 +206,26 @@ div#taskList__sectionBar118891 {
 /* A Section */
 div#taskList__sectionBar118892 {
     position: fixed;
-    bottom: 59px;
-    left: 250px;
-    width: 70px;
+    bottom: 75px;
+    left: 50px;
+    width: 50px;
     z-index: 5;
 }
 
 /* E Section */
 div#taskList__sectionBar118893 {
     position: fixed;
-    bottom: 59px;
-    left: 280px;
-    width: 70px;
+    bottom: 75px;
+    left: 100px;
+    width: 50px;
     z-index: 5;
 }
 
 /* F Section */
 div#taskList__sectionBar118894 {
     position: fixed;
-    bottom: 59px;
-    left: 320px;
+    bottom: 75px;
+    left: 150px;
     width: 50px;
     z-index: 5;
 }
@@ -246,17 +233,53 @@ div#taskList__sectionBar118894 {
 /* Z Section */
 div#taskList__sectionBar118888 {
     position: fixed;
-    bottom: 58px;
-    left: 350px;
+    bottom: 75px;
+    left: 200px;
     width: 50px;
     z-index: 5;
 }
 
-/* Task list at bottom */
-section.taskList.mainSection {
-    position: relative;
-    top: 300px;
+
+button.shortcutNav__hideCompleteTasks {
+    position: fixed;
+    left: 16px;
+    bottom: 31px;
+    z-index: 10;
 }
+
+.taskList__taskAdd {
+    position: fixed !important;
+    bottom: 10px;
+    z-index: 3;
+}
+
+button.taskList__taskAddBt {
+    display: none;
+}
+
+textarea.taskList__taskAddInput {
+    position: relative;
+    left: 40px;
+}
+
+body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__suggestTaskList {
+    position: fixed;
+    top: 431px;
+    z-index: 120;
+}
+
+/* .ReactModal__Overlay--after-open .ReactModal__Content .appModal button {
+    position: relative;
+    left: -100px;
+    bottom: -250px;
+} */
+
+.taskList__breadcrumb {
+    position: fixed;
+    bottom: 10px;
+    z-index: 5;
+}
+
 `);
 
 const addCss = document.createElement('style');
