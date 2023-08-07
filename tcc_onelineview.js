@@ -169,7 +169,7 @@ section.taskList.mainSection {
 :root {
     --section-one-position: 110px;
     --section-two-position: 75px;
-    --section-left-base: 130px;
+    --section-left-base: 100px;
 }
 
 /* G Section */
