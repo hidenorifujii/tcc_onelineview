@@ -7,7 +7,7 @@
 
 const css = document.createTextNode(`
 
-/*  test */
+
 
 /* 3 Dot Menu */
 
@@ -156,7 +156,7 @@ input::-webkit-inner-spin-button {
 
 section.taskList.mainSection {
     position: relative;
-    top: 220px;
+    top: 130px;
 }
 
 
