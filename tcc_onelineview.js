@@ -156,7 +156,8 @@ input::-webkit-inner-spin-button {
 
 section.taskList.mainSection {
     position: relative;
-    top: 130px;
+    top: 250px;
+    height: 2000px;
 }
 
 
