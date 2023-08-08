@@ -8,7 +8,6 @@
 const css = document.createTextNode(`
 
 
-
 /* Start or Active */
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
@@ -148,6 +147,7 @@ section.taskList.mainSection {
     z-index: 1;
     width: 83%;
 }
+
 
 :root {
     --section-one-position: 110px;
@@ -297,6 +297,8 @@ button.taskList__popupBt.taskList__nowSectionBt { order: 10; }
 .taskList__popupBt.taskList__popupCloneBt { order: 20; }
 button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
+
+
 `);
 
 const addCss = document.createElement('style');
