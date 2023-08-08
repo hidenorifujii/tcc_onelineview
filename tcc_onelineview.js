@@ -143,7 +143,7 @@ section.taskList.mainSection {
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
     position: fixed;
-    bottom: 150px;
+    bottom: 80px;
     z-index: 1;
     width: 83%;
 }
