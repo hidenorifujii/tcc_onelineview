@@ -9,25 +9,6 @@ const css = document.createTextNode(`
 
 
 
-/* 3 Dot Menu */
-
-.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro {
-    right: 300px;
-}
-
-.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro .taskList__threeDotsVal {
-    top: -8px;
-    left: -25px;
-}
-
-/* 3 Dot Pop-up */
-
-body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsVal .taskList__threeDotsPopup {
-    left: 50px;
-}
-
-button.taskList__popupBt.taskList__popupDeleteBt {top: -278px;}
-
 /* Start or Active */
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
@@ -289,6 +270,33 @@ body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__su
     left: -100px;
     bottom: -200px;
 }
+
+/* 3 Dot Menu */
+
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro {
+    right: 300px;
+}
+
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro .taskList__threeDotsVal {
+    top: -8px;
+    left: -25px;
+}
+
+/* 3 Dot Pop-up */
+
+body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsVal .taskList__threeDotsPopup {
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+button.taskList__popupBt.taskList__popupDeleteBt { order: -1; }
+button.taskList__popupBt.taskList__nextTaskBt { order: 5; }
+button.taskList__popupBt.taskList__nowSectionBt { order: 10; }
+.taskList__popupBt.taskList__popupSectionBt { order: 15; }
+.taskList__popupBt.taskList__popupCloneBt { order: 20; }
+button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
+.taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 `);
 
 const addCss = document.createElement('style');
