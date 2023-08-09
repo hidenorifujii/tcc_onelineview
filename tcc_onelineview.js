@@ -49,7 +49,6 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow .taskList__d
 
 .taskList__mainLine {
     height: 30px;
-    /* position: flex; */
 }
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__colorVal .taskList__colorCircle {
@@ -78,15 +77,14 @@ body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__t
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .tasklist__nameGroupVal .taskList__nameVal {
     position: relative;
     top: 2px;
-    /* width: 400px */
     left: 69px;
 }
 
 body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__estimated_timeVal {
     width: 14%;
-    color: #b2b0b0;
     position: relative;
     left: 50px;
+    color: #b2b0b0;
 }
 
 body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__actual_timeVal {
@@ -94,7 +92,6 @@ body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__t
     color: #b2b0b0;
     position: relative !important;
     left: -150px !important;
-    /* visibility: hidden; */
 }
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__actual_timeVal.taskList__val--exists {
@@ -153,7 +150,7 @@ section.taskList.mainSection {
 }
 
 button.shortcutNav__hideCompleteTasks {
-    position: fixed;
+    position: fixed !important;
     left: 56px;
     bottom: 31px;
     z-index: 10;
@@ -201,7 +198,7 @@ body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__su
 }
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsIntro .taskList__threeDotsVal {
-    top: -8px;
+    top: -5px;
     left: -25px;
 }
 
@@ -223,6 +220,28 @@ button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 
 
 
+
+
+
+button.shortcutNav__oyasumiMode {
+    display: none;
+}
+
+button.shortcutNav__interruption {
+    display: none;
+}
+
+button.shortcutNav__moveNowSectionAuto.shortcutNav__moveNowSectionAuto--on.shortcutNav__button--on {
+    display: none;
+}
+
+.taskHeader__menuBar--sp {
+    position: fixed;
+}
+
+h1.topHeader__logo {
+    display: none;
+}
 `);
 
 const addCss = document.createElement('style');
