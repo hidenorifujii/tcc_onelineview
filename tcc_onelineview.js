@@ -8,6 +8,7 @@
 const css = document.createTextNode(`
 
 
+
 /* Start or Active */
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
@@ -134,12 +135,17 @@ input::-webkit-inner-spin-button {
 
 /* All on bottom */
 
-section.taskList.mainSection {
-    position: relative;
-    top: 250px;
-    height: 2000px;
+body.task .wrapper .container .content .TaskApp .taskList__titleRow {
+    display: none;
 }
 
+section.taskList.mainSection {
+    position: sticky;
+    /* top: 250px;
+    height: 2000px; */
+    top: 500px;
+    /* height: 200vh; */
+}
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
     position: fixed;
@@ -147,9 +153,6 @@ section.taskList.mainSection {
     z-index: 1;
     width: 83%;
 }
-
-
-
 
 button.shortcutNav__hideCompleteTasks {
     position: fixed;
@@ -221,6 +224,14 @@ button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 
 
+.taskHeader__completionSchedule--animate.taskHeader__completionSchedule--update {
+    position: sticky;
+    top: 0;
+}
+
+.taskHeader__completionSchedule--fixed {
+    display: fixed;
+}
 `);
 
 const addCss = document.createElement('style');
