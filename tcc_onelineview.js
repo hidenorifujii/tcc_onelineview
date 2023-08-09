@@ -136,7 +136,7 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow {
 
 section.taskList.mainSection {
     position: relative;
-    top: 45vh;
+    top: 50vh;
     height: 200vh;
 }
 
