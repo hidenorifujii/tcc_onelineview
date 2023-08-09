@@ -24,14 +24,9 @@ const css = document.createTextNode(`
 button.shortcutNav__oyasumiMode,
 button.shortcutNav__interruption,
 button.shortcutNav__moveNowSectionAuto.shortcutNav__moveNowSectionAuto--on.shortcutNav__button--on,
-h1.topHeader__logo,
-/* .wrapper .container .content .TaskApp .taskList__titleRow.taskList__titleRow--fixed, */
-/* body.task .wrapper .container .content .TaskApp .taskList__titleRow, */
-/* .wrapper .container .content .TaskApp .taskHeader, */
-body.task header.topHeader,
 .container .content .TaskApp .shortcutKeyButton button,
+header.topHeader,
 footer.topFooter,
-.wrapper .container .content .TaskApp .taskList__titleRow.taskList__titleRow--fixed,
 .topCampaign {
     display: none;
 }
@@ -220,6 +215,7 @@ button.taskList__popupBt.taskList__nowSectionBt { order: 10; }
 .taskList__popupBt.taskList__popupCloneBt { order: 20; }
 button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
+
 
 `);
 
