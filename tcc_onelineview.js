@@ -21,11 +21,14 @@ const css = document.createTextNode(`
 
 /* Hide */
 
+button.shortcutNav__oyasumiMode,
+button.shortcutNav__interruption,
+button.shortcutNav__moveNowSectionAuto.shortcutNav__moveNowSectionAuto--on.shortcutNav__button--on,
+h1.topHeader__logo,
 /* .wrapper .container .content .TaskApp .taskList__titleRow.taskList__titleRow--fixed, */
 /* body.task .wrapper .container .content .TaskApp .taskList__titleRow, */
-/* nav.shortcutNav, */
 /* .wrapper .container .content .TaskApp .taskHeader, */
-/* body.task header.topHeader, */
+body.task header.topHeader,
 .container .content .TaskApp .shortcutKeyButton button,
 footer.topFooter,
 .wrapper .container .content .TaskApp .taskList__titleRow.taskList__titleRow--fixed,
@@ -218,30 +221,6 @@ button.taskList__popupBt.taskList__nowSectionBt { order: 10; }
 button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 
-
-
-
-
-
-button.shortcutNav__oyasumiMode {
-    display: none;
-}
-
-button.shortcutNav__interruption {
-    display: none;
-}
-
-button.shortcutNav__moveNowSectionAuto.shortcutNav__moveNowSectionAuto--on.shortcutNav__button--on {
-    display: none;
-}
-
-.taskHeader__menuBar--sp {
-    position: fixed;
-}
-
-h1.topHeader__logo {
-    display: none;
-}
 `);
 
 const addCss = document.createElement('style');
