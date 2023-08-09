@@ -8,7 +8,6 @@
 const css = document.createTextNode(`
 
 
-
 /* Start or Active */
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
@@ -50,6 +49,7 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow .taskList__d
 
 .taskList__mainLine {
     height: 30px;
+    /* position: flex; */
 }
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__colorVal .taskList__colorCircle {
@@ -141,7 +141,7 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow {
 
 section.taskList.mainSection {
     position: relative;
-    top: 250px;
+    top: 45vh;
     height: 200vh;
 }
 
@@ -222,7 +222,7 @@ button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 
 
-.taskHeader__targetDate {}
+
 `);
 
 const addCss = document.createElement('style');
