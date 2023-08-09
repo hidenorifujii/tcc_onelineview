@@ -222,8 +222,6 @@ button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 
 
-
-header.taskHeader {}
 `);
 
 const addCss = document.createElement('style');
