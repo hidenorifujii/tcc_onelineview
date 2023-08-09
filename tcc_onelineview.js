@@ -140,11 +140,9 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow {
 }
 
 section.taskList.mainSection {
-    position: sticky;
-    /* top: 250px;
-    height: 2000px; */
-    top: 500px;
-    /* height: 200vh; */
+    position: relative;
+    top: 250px;
+    height: 200vh;
 }
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
@@ -224,14 +222,8 @@ button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
 
 
-.taskHeader__completionSchedule--animate.taskHeader__completionSchedule--update {
-    position: sticky;
-    top: 0;
-}
 
-.taskHeader__completionSchedule--fixed {
-    display: fixed;
-}
+header.taskHeader {}
 `);
 
 const addCss = document.createElement('style');
