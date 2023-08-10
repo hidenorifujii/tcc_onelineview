@@ -8,6 +8,7 @@
 const css = document.createTextNode(`
 
 
+
 /* Start or Active */
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__end_timeVal--notStarted {
@@ -47,6 +48,7 @@ body.task .wrapper .container .content .TaskApp .taskList__titleRow .taskList__d
 
 .taskList__mainLine {
     height: 30px;
+    background-color: black;
 }
 
 .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__colorVal .taskList__colorCircle {
@@ -138,6 +140,7 @@ section.taskList.mainSection {
     position: relative;
     top: 50vh;
     height: 200vh;
+    background-color: black !important;
 }
 
 .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--started {
@@ -152,6 +155,7 @@ button.shortcutNav__hideCompleteTasks {
     left: 56px;
     bottom: 31px;
     z-index: 10;
+    background-color: black !important;
 }
 
 .taskList__taskAdd {
@@ -168,6 +172,7 @@ button.taskList__taskAddBt {
 textarea.taskList__taskAddInput {
     position: relative;
     left: 40px;
+    background-color: black !important;
 }
 
 body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__suggestTaskList {
@@ -215,6 +220,22 @@ button.taskList__popupBt.taskList__nowSectionBt { order: 10; }
 .taskList__popupBt.taskList__popupCloneBt { order: 20; }
 button.taskList__popupBt.taskList__moveTomorrowBt { order: 25; }
 .taskList__popupBt.taskList__popupTargetDateBt { order: 30; }
+
+.TaskApp {
+    background-color: black;
+}
+
+header.taskHeader {
+    background-color: black !important;
+}
+
+nav.shortcutNav {
+    background-color: black !important;
+}
+
+.taskList__extensionLine {
+    background-color: black;
+}
 
 
 `);
