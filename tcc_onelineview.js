@@ -208,7 +208,8 @@ body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__su
 /* 3 Dot Pop-up */
 
 body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow .taskList__threeDotsVal .taskList__threeDotsPopup {
-    left: 50px;
+    left: 20px;
+    top: -10px;
     display: flex;
     flex-direction: column;
 }
