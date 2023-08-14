@@ -112,6 +112,25 @@ body.task .wrapper .container .content .TaskApp .taskList__taskRows .taskList__t
     left: 16px;
 }
 
+/* Wider task name field when input or focus */
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div > div.taskList__val.tasklist__nameGroupVal > div.taskList__val.taskList__nameVal.taskList__val--exists {
+    width: 290px;
+    position: relative;
+    left: 21px;
+}
+
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div.taskList__mainLine > div.taskList__threeDotsIntro {
+    right: 310px;
+}
+
+
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div.taskList__mainLine > div.taskList__val.taskList__estimated_timeVal,
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div.taskList__mainLine > div.taskList__val.taskList__actual_timeVal,
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div.taskList__mainLine > div.taskList__val.taskList__start_timeVal,
+.wrapper .container .content .TaskApp .taskList__taskRows .taskList__taskRow.taskList__taskRow--active > div.taskList__mainLine > div.taskList__val.taskList__end_timeVal {
+    display: none;
+}
+
 /* Disable Animations */
 
 *, ::before, ::after {
@@ -172,13 +191,17 @@ button.taskList__taskAddBt {
 textarea.taskList__taskAddInput {
     position: relative;
     left: 40px;
-    background-color: black !important;
+}
+
+body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__taskAddInput, body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__suggestTaskList {
+    width: 150%;    
 }
 
 body.task .wrapper .container .content .TaskApp .taskList__taskAdd .taskList__suggestTaskList {
     position: fixed;
-    top: 231px;
+    top: 393px;
     z-index: 120;
+    width: 85%;
 }
 
 .taskList__breadcrumb {
@@ -237,6 +260,7 @@ nav.shortcutNav {
 .taskList__extensionLine {
     background-color: black;
 }
+
 
 
 `);
